@@ -1,0 +1,2185 @@
+html {
+  font-family: "Century Gothic";
+  width: 100%;
+  
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+    font-family: "Century Gothic";
+
+}
+.containerfull{
+	overflow: hidden;
+}
+/*-----------Navigation----------*/
+.navigation{
+	position: fixed;
+	z-index: 100000;
+	width: 100%;
+	background-color: #333333;
+	height: 50px;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+
+/*-------Splash Page-------*/
+
+	.Splash{
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		overflow: visable;
+		}
+
+
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+		
+	}
+
+	.Everwell_logo {
+		width: 100%;
+		z-index: 5;
+		position: absolute;
+		margin-top: 80px;
+		display: block;
+		text-align: center;
+	}
+	.Everwell_logo > img {
+		height: 250px;
+		width:256px;
+
+	}
+
+	.Everwell_text{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 10px;
+		font-size: 160%;
+		letter-spacing: 5px;
+	}
+	.Everwell_text2{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		margin-top:-20px;
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: lighter;
+		font-size:22px;
+		letter-spacing: 5px;
+	}
+
+	.splashbutton{
+		z-index: 5;
+		margin-top: 50px;
+		height: 50px;
+		width: 380px;
+		font-size: 22px;
+		font-weight: bold;
+		padding: 10px;
+		letter-spacing: 2.5px;
+		text-transform: uppercase;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+	}
+	@media only screen and (min-device-width: 300px) and (max-device-width: 370px) and (orientation: portrait){
+	html,
+	body {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+	.navhide1{
+		display: none;
+	}
+	.containerfull{
+	overflow: hidden;
+}
+	
+	.Splash{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+		}
+
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+	}
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		display: block;
+		text-align: center;
+		margin-top: 75px;
+	}
+	.Everwell_text2{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		margin-top:-20px;
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: lighter;
+		font-size:15px;
+		letter-spacing: 5px;
+	}
+	.Everwell_logo> img{
+		height: 100px;
+		width: 100px;
+	}
+
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		font-size: 100%;
+		
+	}
+		.splashbutton{
+		z-index: 5;
+		position: absolute;
+		top: 260px;
+		margin-left: 7.5%;
+		display: block;
+		text-align: center;
+		width: 270px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+		padding: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+		
+		
+	}
+		.evntgall{
+			display: none;
+		}
+	}
+	@media only screen and (min-device-width: 321px) and (max-device-width: 568px) and (orientation: portrait){
+	.navhide1{
+		display: none;
+	}
+	html,
+	body {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+	.containerfull{
+	overflow: hidden;
+}
+	
+	.Splash{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+		}
+
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+	}
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		display: block;
+		text-align: center;
+		margin-top: 75px;
+	}
+	.Everwell_text2{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		margin-top:-20px;
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: lighter;
+		font-size:15px;
+		letter-spacing: 5px;
+	}
+	.Everwell_logo> img{
+		height: 100px;
+		width: 100px;
+	}
+
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		font-size: 100%;
+		
+	}
+		.splashbutton{
+		z-index: 5;
+		position: absolute;
+		top: 260px;
+		margin-left: 14%;
+		display: block;
+		text-align: center;
+		width: 270px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+		padding: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+	}
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape){
+.containerfull{
+	overflow: hidden;
+}
+.navhide1{
+		display: none;
+	}
+	.Splash{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	overflow: hidden;
+		}
+
+	.Splash > img{
+		position: relative;
+		z-index: 1;
+	}
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		display: block;
+		text-align: center;
+		margin-top:52px;
+	}
+	.Everwell_logo> img{
+		height: 110px;
+		width:110px;
+
+	}
+
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 60%;
+	}
+	.Everwell_text2{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 100%;
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top: -0px;
+		margin-left:32%;
+		display: block;
+		text-align: center;
+		height: 30px;
+		width: 190px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align:center;
+		padding: 6px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 0px;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+
+.containerfull{
+	overflow: hidden;
+}
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		display: block;
+		text-align: center;
+	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+
+	}
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top: 70px;
+		margin-left: -140px;
+		height: 50px;
+		width: 300px;
+		font-size: 25px;
+		padding: 6px;
+	}
+	}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+.containerfull{
+	overflow: hidden;
+}
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		display: block;
+		text-align: center;
+		font-size: 25;
+	}
+	.Everwell_logo> img{
+		height: 250px;
+		width:250px;
+
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top: -70px;
+		margin-left: -140px;
+		height: 50px;
+		width: 300px;
+		font-size: 25px;
+		padding: 6px;
+	}
+}
+@media only screen and (max-device-width: 767px) and (min-device-width: 569px) and (orientation: landscape){
+.containerfull{
+	overflow: hidden;
+}
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 50px;
+		display: block;
+		text-align: center;
+	}
+	.Everwell_logo> img{
+		height: 120px;
+		width:120px;
+
+	}
+	.Everwell_text{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 100%;
+	}
+	.Everwell_text2{
+		font-family: "Century Gothic";
+		color: white;
+		text-shadow: 2px 2px grey;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 110%;
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top: -10px;
+		margin-left: -13%;
+		height: 25px;
+		width: 180px;
+		font-size: 17px;
+		font-weight: bold;
+		text-align:center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 0px;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+	}
+	}
+	@media only screen and (max-device-width: 767px) and (min-device-width: 569px) and (orientation: portrait){
+	.containerfull{
+	overflow: hidden;
+}
+
+	.Everwell_logo{
+		z-index: 5;
+		position: absolute;
+		margin-top: 50px;
+		display: block;
+		text-align: center;
+	}
+	.Everwell_logo> img{
+		height: 120px;
+		width:120px;
+
+	}
+
+	.splashbutton{
+		z-index: 5;
+		position: absolute;
+		margin-top: -30px;
+		margin-left: -13%;
+		height: 25px;
+		width: 180px;
+		font-size: 17px;
+		font-weight: bold;
+		text-align:center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 0px;
+		font-family: "Century Gothic";
+		color: white;
+		background:rgba(0, 0, 0, .75);
+		border: 2px solid rgba(255,255,255,.5);
+		text-decoration:none;
+	}
+}
+/*-------What Is Everwell-------*/
+	#everwell{
+	padding-top: 30px;
+	}
+	.what_is_everwell{
+		background-color: white;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 160%;
+		letter-spacing: 3px;
+	}
+
+	.slider{
+		width: 900px;
+		height: 480px;
+		margin: 10px auto;
+		background: transparent;
+		}
+
+	.slider img{
+
+	    width: 900px;
+		height: 480px;
+		position: center;
+	}
+
+	.what-image1{
+		display: block;
+		width: 750px;
+		height: 410px;
+		position: center;
+   }
+
+   .what-image2{
+    	display: none;
+   }
+
+
+	.no-focus-border:focus{
+		border: transparent;
+	 	outline: 0 none;
+	}
+
+
+	#wrapper {
+		font: 10pt normal Arial, sans-serif;
+		height: auto;
+		text-align: center;
+	}
+
+	/* Mobile size Portrait CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+html,
+	body {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+	}
+		.slider {
+			width: 230px;
+			height: 230px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 230px;
+			height: 230px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 230px;
+			height: 230px;
+			position: center;
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+
+	/* Mobile size Landscape CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+
+		.slider {
+			width: 280px;
+			height: 250px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 280px;
+			height: 230px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 280px;
+			height: 280px;
+			position: center;
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+	@media only screen and (min-device-width: 568px) and (max-device-width: 768px) and (orientation: landscape) {
+
+		.slider {
+			width: 280px;
+			height: 280px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 280px;
+			height: 280px;
+			position: center;
+		}
+
+   		.what-image1 {
+   	   		display: none;
+   		}
+
+   		.what-image2 {
+    		display: block;
+    		width: 280px;
+			height: 230px;
+			position: center;
+   		}
+
+		#wrapper {
+			font: 8pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+
+	/* Tablet size portrait CSS*/
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+		.slider {
+			width: 633px;
+			height: 420px;
+			margin: 10px auto;
+			background: transparent;
+		}
+
+		.slider img {
+	    	width: 633px;
+			height: 380px;
+			position: center;
+		}
+
+		.what-image1 {
+			display: block;
+			width: 633px;
+			height: 380px;
+			position: center;
+   		}
+
+		.what-image2 {
+    		display: none;
+   		}
+
+		#wrapper {
+			font: 10pt normal Arial, sans-serif;
+			height: auto;
+			text-align: center;
+		}
+	}
+
+/*-------Businesses need you-------*/
+
+	.business-image {
+	  height: 400px;
+	  position: relative;
+	}
+
+	.business-text > h1{
+		position: relative;
+		color: #fff;
+		z-index: 1000;
+		font-weight: bold;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+	}
+
+	.business-image > img {
+	  position: absolute;
+	  height: 400px;
+	  width: 100%;
+	  z-index: 500;
+	}
+
+	/* Mobile size Portrait CSS*/
+	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	
+		.business-text > h1{
+			position: relative;
+			color: #fff;
+			z-index: 1000;
+			font-weight: bold;
+			font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+
+		}
+	}	
+
+/*-------Why Pasadena-------*/
+    #pasadena{
+		padding: 30px;
+	}
+	.why-pasadena {
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 160%;
+		letter-spacing: 3px;
+		
+	}
+	.why-pasadena2 {
+		display: none;
+	}
+
+	.passvid{
+
+	  list-style: none;
+	  margin: 0;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+
+	  -webkit-flex-flow: row wrap;
+	  justify-content: space-around;
+
+	}
+	.evntgall{
+	  list-style: none;
+	  margin: 0;
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+
+	  -webkit-flex-flow: row wrap;
+	  justify-content: space-around;
+	}
+
+	#container1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  #container1:hover #image{
+    color: #CC181E;
+    opacity: 1;
+  }
+
+  #play {
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -220px 2px 2px 2px;
+    height: 140px;
+    position: relative;
+    z-index: 10;
+  }
+  .caption > h2{
+    padding-top:55px;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 120%;
+  }
+  .about-videos {
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+
+  .gallery-box{
+    position: relative;
+    display: inline-block;
+  }
+  .gallery-events-div { 
+	width: 600px;
+	height: 350px; 
+	border: 3px solid black;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+} 
+
+#gallery-div { 
+width: 500px;
+	height: 340px;
+} 
+  .gallery {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	margin-top:-30px;
+	font-size: 180%;
+	letter-spacing:3px;
+    }
+
+  .events-list {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 340px;
+    overflow: auto;
+    margin-top: 0px;
+    border: 3px solid black;
+
+  }
+
+  .event {
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90%;
+    text-align: left;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    font-family: "Century Gothic";
+  }
+  
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
+.why-pasadena{
+	display:none;
+}
+#play {
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -220px 2px 2px 2px;
+    height: 185px;
+    position: relative;
+    z-index: 10;
+  }
+  .caption > h2{
+    padding-top:55px;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 120%;
+  }
+  .about-videos {
+    width: 250px;
+    height: 250px;
+    border: 0px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+  .passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px;
+
+	}
+.evntgall {
+    display: none;
+    }
+
+.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
+
+}
+  @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
+.why-pasadena{
+	display:none;
+}
+#play {
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -220px 2px 2px 2px;
+    height: 185px;
+    position: relative;
+    z-index: 10;
+  }
+  .caption > h2{
+    padding-top:55px;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 120%;
+  }
+  .about-videos {
+    width: 250px;
+    height: 250px;
+    border: 0px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+
+  .passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px;
+
+	}
+.evntgall {
+    display: none;
+    }
+	.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
+
+}
+ /* the following is for tablet --to be removed after css for tablet is complete  */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+  .why-pasadena{
+	display:none;
+}
+  .passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+	text-align: center;
+	}
+.evntgall {
+    display: none;
+    }
+
+    .tablet-display{
+    	display: none;
+    }
+
+}
+
+	/* Tablet size Landscape CSS*/
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: Landscape) {
+	.why-pasadena{
+	display:none;
+}
+		.tablet-display{
+			display: none;
+		
+	}
+	.passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+	text-align:center;
+	}
+	}
+	
+	
+	@media only screen and (max-device-width : 767px) and (min-device-width : 568px) and (orientation : landscape){
+.why-pasadena{
+	display:none;
+}
+#play {
+    background: url('images/play-icon.png') center  no-repeat;
+    margin: -220px 2px 2px 2px;
+    height: 185px;
+    position: relative;
+    z-index: 10;
+  }
+  .caption > h2{
+    padding-top:55px;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 120%;
+  }
+  .about-videos {
+    width: 250px;
+    height: 250px;
+    border: 0px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+
+  .passvid {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+
+    text-align: center;
+    padding: 10px;
+
+	}
+.evntgall {
+    display: none;
+    }
+	.caption > h2{
+    padding-top:35px;
+    text-align: center;
+    font-family: "Century Gothic";
+    font-size: 20px;
+  }
+
+}
+  
+
+
+
+
+
+
+
+
+/*-------Meet the Teams/Regional Director-------*/
+	#teams{
+	
+	}
+	.teampara{
+		
+		height: 220%;
+	    position: relative;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7)
+    	)
+	}
+	}
+	.team{
+		height: 210%;
+	    position: relative;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7)
+    	)
+	}
+
+	.teamslider{
+		width: 850px;
+		height: 256px;
+		margin: 10px auto;
+		background: transparent;
+		}
+	.teamslider img{
+		position: center;
+	}
+
+	#mainwrapper {
+		font: 10pt normal Arial, sans-serif;
+		height: auto;
+		text-align: center;
+
+}
+
+	#mainwrapper .box {
+		border: 2px solid #fff;
+		cursor: pointer;
+		height: 256px;
+		float: left;
+
+		position: relative;
+		overflow: hidden;
+		width: 256px;
+			-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+			-moz-box-shadow: 1px 1px 1px 1px #ccc;
+			box-shadow: 1px 1px 1px 1px #ccc;
+	}
+
+
+
+	#mainwrapper .box .caption {
+		background-color: #333333;
+		position: absolute;
+		color: #fff;
+		z-index: 100;
+			-webkit-transition: all 500ms ease-out;
+			-moz-transition: all 500ms ease-out;
+			-o-transition: all 500ms ease-out;
+			-ms-transition: all 500ms ease-out;
+			transition: all 500ms ease-out;
+		left: 0;
+	}
+
+	#mainwrapper .box .simple-caption {
+		height: 250px;
+		width: 256px;
+		display: block;
+		bottom: -200px;
+		line-height: 25pt;
+		text-align: center;
+	}
+
+	#mainwrapper .box:hover .simple-caption {
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		opacity: 1;
+		transform: translateY(-50%);
+	}
+    #arrow{
+		margin-left: 43%;
+	}
+
+	#team_titles{
+		color: white;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 14pt;
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+
+	#team_description{
+	    font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+	}
+	.daniel{
+		color: white;
+		font-family:Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 220%;
+		letter-spacing: 20px;
+	}
+	.regional{
+		color: white;
+		font-family:Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 170%;
+		letter-spacing: 11px;
+	}
+	.team-dialog {
+		background: white;
+		padding: 20px 30px;
+		text-align: center;
+		max-width: 800px;
+		margin: 40px auto;
+		position: relative;
+	}
+	#content {
+  text-align: center;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 160%;
+  letter-spacing: 5px;
+	}
+
+	#content h1 {
+	  font-weight: bold;
+	}
+	#content > h2 {
+	  padding-top: 70px;
+	  margin-bottom: 0px;
+	  color: white;
+	}
+
+	.teamname {
+	  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+	  text-align: center;
+	  font-size: 200%;
+	  font-weight: bold;
+	  color: black;
+	}
+
+	.teamleader {
+	  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+	  font-size: 170%;
+	  font-weight: bold;
+	  text-align: center;
+	  color: black;
+	}
+	.my-mfp-zoom-in .zoom-anim-dialog {
+		opacity: 0;
+
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+
+
+
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	/* animate in */
+	.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+		opacity: 1;
+
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	}
+
+	/* animate out */
+	.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		transform: scale(0.8);
+
+		opacity: 0;
+	}
+
+	/* Dark overlay, start state */
+	.my-mfp-zoom-in.mfp-bg {
+		opacity: 0;
+		-webkit-transition: opacity 0.3s ease-out;
+		-moz-transition: opacity 0.3s ease-out;
+		-o-transition: opacity 0.3s ease-out;
+		transition: opacity 0.3s ease-out;
+	}
+	/* animate in */
+	.my-mfp-zoom-in.mfp-ready.mfp-bg {
+		opacity: 0.8;
+	}
+	/* animate out */
+	.my-mfp-zoom-in.mfp-removing.mfp-bg {
+		opacity: 0;
+	}
+
+
+	.regdirpic{
+		margin-left: 14%;
+
+	}
+	.regdirtext{
+		text-transform: uppercase;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 60%;
+		font-weight: bold;
+		letter-spacing: 5px;
+		line-height: 200%;
+	}
+
+/* meet the team- tablet CSS- Portrait*/
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation:portrait){
+
+
+ .team{
+    	background: linear-gradient(
+      	rgba(0, 0, 0, 0.6),
+    	rgba(0, 0, 0, 0.6)
+    	),url("images/Metro 2.jpg");
+    	background-size: 100% 100%;
+	}
+	.teampara{
+		
+		height: 100%;
+	    position: relative;
+	}
+
+	#content > h2 {
+		font-size: 40px;
+	}
+
+	.title1{
+  		width:6%;
+	}
+
+	.title2{
+  		width:6%;
+	}
+
+	.regdir{
+    	display: none;
+	}
+
+
+	.teamslider{
+		width: 650px;
+		height: 256px;
+		margin: 10px auto;
+		background: transparent;
+	}
+	.teamslider img{
+		position: center;
+	}
+
+	#image-1 {
+		padding-top: -20px;
+	}
+
+	#mainwrapper {
+		font: 10pt normal Arial, sans-serif;
+		height: auto;
+		width:	550px;
+		text-align: center;
+	}
+
+	#mainwrapper .box {
+		border: 2px solid #fff;
+		cursor: pointer;
+		height: 256px;
+		float: left;
+
+		position: relative;
+		overflow: hidden;
+		width: 215px;
+			-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+			-moz-box-shadow: 1px 1px 1px 1px #ccc;
+			box-shadow: 1px 1px 1px 1px #ccc;
+	}
+
+	#mainwrapper .box .caption {
+		background-color: #585858;
+		position: absolute;
+		color: #fff;
+		z-index: 100;
+			-webkit-transition: all 500ms ease-out;
+			-moz-transition: all 500ms ease-out;
+			-o-transition: all 500ms ease-out;
+			-ms-transition: all 500ms ease-out;
+			transition: all 500ms ease-out;
+		left: 0;
+	}
+
+	#mainwrapper .box .simple-caption {
+		height: 250px;
+		width: 215px;
+		display: block;
+		bottom: -200px;
+		line-height: 25pt;
+		text-align: center;
+	}
+
+	#mainwrapper .box:hover .simple-caption {
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		opacity: 1;
+		transform: translateY(-50%);
+	}
+    #arrow{
+		margin-left: 43%;
+	}
+
+	#team_titles{
+		color: white;
+		font: 14pt normal Arial, sans-serif;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	#team_description{
+	    font-family: "Century Gothic";
+
+	}
+	.team-dialog {
+		background: white;
+		padding: 20px 30px;
+		text-align: center;
+		max-width: 800px;
+		margin: 40px auto;
+		position: relative;
+	}
+	#content {
+  		text-align: center;
+	}
+
+	#content h1 {
+	  font-weight: bold;
+	}
+	#content > h2 {
+	  padding-top: 70px;
+	  margin-bottom: 0px;
+	  color: white;
+	}
+
+	.teamname {
+	  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+	  text-align: center;
+	  font-size: 200%;
+	  font-weight: bold;
+	  color: black;
+	}
+
+	.teamleader {
+	  font-family: 'Bitter', 'Trebuchet MS', Cambria;
+	  font-size: 170%;
+	  font-weight: bold;
+	  text-align: center;
+	  color: black;
+	}
+}
+/*Tablet CSS- Landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+
+	.regdir{
+	display: none;
+	}
+	.teampara{
+		
+		height: 120%;
+	    position: relative;
+	}
+	.team{
+    	background: linear-gradient(
+      	rgba(0, 0, 0, 0.6),
+    	rgba(0, 0, 0, 0.6)
+    	),url("images/Metro 2.jpg");
+    	background-size: 100% 100%;
+	}
+}
+
+@media only screen and (min-device-width : 568px) and (max-device-width : 768px) and (orientation : landscape){
+  .team{
+    display: none;
+		}
+	.regdir{
+	display: none;
+	}
+	.teampara{
+		display: none;
+	}
+}
+
+ 
+/*Mobile CSS- Landscape*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
+  .team{
+    display: none;
+	}
+	.regdir{
+	display: none;
+	}
+	.teampara{
+		
+		display: none;
+	}
+}
+/*Mobile CSS- portrait*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
+  .team{
+    display: none;
+		}
+	.regdir{
+	display: none;
+	}
+	.teampara{
+		
+		display: none;
+	}
+}
+
+/*-----------Career section------------ */
+
+#careers{
+padding: 30px;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+h2.position-caption {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  text-align: center;
+  font-size: 220%;
+  letter-spacing: 3px;
+}
+
+.view2 .job-image1 {
+	content:url("images/Job-images/1a.png");
+}
+
+.view2 .job-image2 {
+	content:url("images/Job-images/2a.png");
+}
+
+.view2 .job-image3 {
+	content:url("images/Job-images/3a.png");
+}
+
+.view2 .job-image4 {
+	content:url("images/Job-images/4a.png");
+}
+
+.view2 .job-background1 {
+	content:url("images/Job-images/1.png");
+}
+
+.view2 .job-background2 {
+	content:url("images/Job-images/2.png");
+}
+
+.view2 .job-background3 {
+	content:url("images/Job-images/3.png");
+}
+
+.view2 .job-background4 {
+	content:url("images/Job-images/4.png");
+}
+
+.view .alt-job-image1 {
+	content:url("images/Job-images/bbc.png");
+}
+
+.view .alt-job-image2 {
+	content:url("images/Job-images/am.png");
+}
+
+.view .alt-job-image3 {
+	content:url("images/Job-images/bc.png");
+}
+
+.view .alt-job-image4 {
+	content:url("images/Job-images/int.png");
+}
+
+/* Styles for dialog window */
+.small-dialog {
+	background: white;
+	padding: 20px;
+	text-align: left;
+	max-width: 1000px;
+	margin: 40px auto;
+	position: relative;
+}
+
+.small-dialog2 {
+	background: white;
+	padding-right: 35px;
+	text-align: left;
+	max-width: 600px;
+	margin: 40px auto;
+	position: relative;
+	width:1000px;
+	overflow-y: auto;
+	height: 600px;
+}
+
+.job-form fieldset{
+	border-style: none;
+    border-color: white white;
+
+}
+
+.small-dialog2 h2{
+	text-align: center;
+}
+
+.jobinput[type="text"],
+.jobinput[type="phone"],
+.jobinput[type="date"],
+.jobinput[type="datetime"],
+.jobinput[type="email"],
+.jobinput[type="number"],
+.jobinput[type="search"],
+.jobinput[type="tel"],
+.jobinput[type="time"],
+.jobinput[type="url"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 30px;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 12px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+
+}
+
+.job-button {
+
+  padding: 12px 39px 13px 39px;
+  color: #FFF;
+  background-color: gray;
+  font-size: 16px;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
+.btn-apply {
+	border: none;
+	padding: 0.6em 1.2em;
+	background: gray;
+	color: #fff;
+	position: relative;
+  	left: 35%;
+  	margin-left: -100px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px 2px;
+	border-radius: 2px;
+	text-decoration:none;
+}
+
+.btn-apply2 {
+	border-radius: 0;
+	color: #fff;
+	display: inline-block;
+	text-align:center;
+	background-color: #333333;
+	width: 70%;
+	height: 105px;
+	font-size: 170%;
+	letter-spacing: 3px;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 5px;
+	font-family: Century Gothic;
+	position: relative;
+  	left: 14%;
+	top:-80px;
+	display: inline-block;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.btn-apply2 {
+	text-decoration:none;
+}
+
+a.btn-apply2:hover, a.btn-apply2:active {color: white;}
+
+a.btn-apply2:visited {
+    color: white;
+}
+
+a.btn-apply2:link {
+    color: white;
+}
+
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 100%;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+/* Large desktop */
+@media (min-width: 980px) {
+.view { display: none; }
+.image-top{position: absolute;}}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
+.image-top{position: absolute;}}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 459px) and (max-width: 767px) { .view2 { display: none; } }
+
+/* Landscape phones and down */
+@media only screen and (min-width: 320px) and (max-width: 468px) { .view2 { display: none; } }
+
+@media (max-width: 767px) { .view2 { display: none; } }
+
+
+/* Large desktop */
+@media (min-width: 980px) {
+
+.grid{
+	max-width: 1000px;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 10px;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+
+} }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+.grid li {
+	display: inline-block;
+	width: 410px;
+	margin: 10px;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+
+.grid {
+	width:820%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.grid li {
+	display: inline-block;
+	width: 240px;
+	margin-bottom:10px;
+	margin-right:-20px;
+	margin-left:-20px;
+	position: relative;
+} }
+
+/* Landscape phones and down */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) {
+
+.grid {
+	width:420%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.grid li {
+	display: inline-block;
+	width: 170px;
+	margin-bottom:10px;
+	position: relative;
+}
+
+.grid li {
+	margin-right:-20px;
+	margin-left:-20px;
+}
+
+.grid li img {
+	width:85%;
+}
+
+.btn-apply2 h2 {
+	position:relative;
+	bottom:25px;
+}}
+
+/* Landscape phones and down */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) {
+
+.grid {
+	width:420%;
+	max-width: 101%;
+	margin: 0 auto;
+}
+
+.grid li {
+	display: inline-table;
+	width: 170px;
+	margin-bottom:10px;
+	position: relative;
+}
+
+.grid li {
+	margin-right:-20px;
+	margin-left:-25px;
+}
+
+.grid li img {
+	width:80%;
+}
+
+}
+
+
+/* Caption Hover for available position section  */
+.caption-hover li{
+
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.caption-hover li:hover .caption-view{
+	opacity: 1;
+	transform: translateY(-20px);
+	-webkit-transform:translateY(-20px);
+	-moz-transform:translateY(-20px);
+	-ms-transform:translateY(-20px);
+	-o-transform:translateY(-20px);
+}
+
+.caption-hover li:hover img{
+	opacity: 1;
+	transform: translateY(-20px);
+	-webkit-transform:translateY(-20px);
+	-moz-transform:translateY(-20px);
+	-ms-transform:translateY(-20px);
+	-o-transform:translateY(-20px);
+}
+
+.caption-hover img{
+	margin: 0px;
+	padding: 0px;
+	z-index: 4;
+}
+
+.caption-hover .caption-view{
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	top:190px;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+.caption-hover img{
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+
+.caption-hover .blur{
+	height: 300px;
+	width: 400px;
+	z-index: 5;
+	background-color: #333333;
+	position: absolute;
+}
+
+.caption-hover .caption-text h1{
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: -5px;
+}
+
+.caption-hover .caption-text{
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	top:10px;
+}
+
+.view2 img { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
+
+.image-top, .view2:hover .image-bottom { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; }
+
+.view2:hover .image-top, .image-bottom { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0; }
+
+/*------Application Tab(Internship)--------*/
+
+
+.tabsection {
+  position: relative;
+  width: 816px;
+  margin: 0 auto;
+  z-index: 0;
+  color: black;
+}
+
+.tabsection:after {
+  content: 'Click above to view available Internships';
+  position: absolute;
+  left: -11.2%;
+  top: 38px;
+  width: 122.5%;
+  height:1200px;
+  font-size: 1.8em;
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 0;
+
+}
+
+.tabbutton {
+  cursor: pointer;
+  width: 200px;
+  display: inline-block;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  transition: .25s ease;
+  border: none;
+  padding: 10px;
+  border-radius: 12px 12px 0 0;
+}
+
+.tabdiv:focus .tabbutton, .tabbutton:focus {
+  background-color: #888888;
+  outline: none;
+}
+
+.tabbutton:focus + .tabp, .tabdiv:focus .tabP {
+  display: block;
+  position: absolute;
+  background-color: #ffffff;
+  height: 120px;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  outline: none;
+  top: 0px;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.tabp {
+  display: none;
+  font-size: 2em;
+}
+
+.tabdiv2{
+	display: inline-block;
+}
+
+div:focus {
+  outline: none;
+}
+
+
+.p {
+  margin-top: 300px;
+  text-align: center;
+  display: block;
+  font-size: 1em;
+}
+.internpadding{
+	margin-top: 1100px;
+}
+/*-------Contact Us/Map-------*/
+
+.google-map {
+	display: absolute;
+}
+#contact-us{
+	background-color: #333333;
+	background-size: 100% 100%;
+}
+.contacttitle{
+		color: white;
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 160%;
+		letter-spacing: 3px;
+}
+
+.contact-us-section {
+	padding: 50px
+}
+
+.contact-us-section > h2 {
+  color: #fff;
+  text-align: center;
+}
+
+
+.contact-us-form {
+padding-top: 10px;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-right: 1px solid #fff;
+}
+
+.contact-us-form > form > input {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-us-form > form > textarea {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+
+#contact-us-address {
+  padding-right: 15px;
+  padding-left: 75px;
+  padding-bottom: 42px;
+  padding-top: 45px;
+  border-right: 1px solid #fff;
+  color: #fff;
+  font-size: 25px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  letter-spacing: 2px;
+}
+
+.contact-us-images {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.contact-us-images > a > img {
+  padding: 10px;
+}
+
+
+.contact-us-table {
+  margin-left: -155px;
+  margin-right: auto;
+}
+
+.btn-contact-us {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-contact-us:hover {
+  background-color: #f2f2f2;
+}
+
+.careers-section > h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px)  and (orientation:portrait) {
+
+
+
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	padding-right: -200px;
+}
+.contact-us-images {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px)  and (orientation:landscape) {
+
+
+
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	padding-right: 100px;
+}
+.contact-us-images {
+  padding-left: 100px;
+  padding-right: 0px;
+}
+}
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) {
+
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	margin-left: -100px;
+}
+.contact-us-form > form > input {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-us-form > form > textarea {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.contact-us-images {
+  padding-right: 200px;
+}
+
+}
+
+/* Landscape phones and down */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) {
+
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	margin-left: -90px;
+}
+.contact-us-form > form > input {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-us-form > form > textarea {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-left: 0px;
+}
+.contact-us-images {
+	border-left: 0px;
+
+}
+.facebook{
+	z-index: 20;
+	margin-left: -410px;
+	margin-top: 195px;
+	margin-bottom: -600px;
+}
+
+.twitter{
+	z-index: 20;
+	margin-left: -315px;
+	margin-top: 510px;
+	margin-bottom: -200px;
+}
+.instagram{
+	z-index: 20;
+	margin-left: -220px;
+	margin-top: 110px;
+	margin-bottom: -80px;
+	
+}
+}
+
+.careers-section > h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 767px) and (orientation:portrait){
+
+
+html {
+  font-family: "Century Gothic";
+  width: 100%;
+
+}
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	margin-left: -70px;
+}
+.contact-us-form > form > input {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-us-form > form > textarea {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.contact-us-images {
+  padding-right: 200px;
+}
+
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) and (orientation:landscape){
+
+
+html {
+  font-family: "Century Gothic";
+  width: 100%;
+  }
+
+#contact-us-address{
+	display:none;
+}
+.contact-us-form{
+	margin-left: -50px;
+}
+.contact-us-form > form > input {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.contact-us-form > form > textarea {
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.contact-us-images {
+  padding-right: 200px;
+}
+
+}
