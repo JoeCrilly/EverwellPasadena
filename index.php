@@ -1,3 +1,23 @@
+<?php
+$to = 'joe.crilly503@gmail.com';
+$subject = 'New Message';
+
+$email = $_POST['email'];
+$title = $_POST['title'];
+$message = $_POST['message'];
+
+$message = <<<EMAIL
+$email
+$title
+$message
+
+EMAIL;
+if($_POST){
+mail($to, $title, $message, $subject, "From: " . $email);
+}
+
+?>
+
 <!doctpye html>
 <html>
 
@@ -1450,7 +1470,8 @@
                     <br>FAX: (626) 796-7060
                 </div></td><td>
                 <div class="contact-us-form">
-                    <form action="contactform.php"  method="post" >
+				<p id = "feedback"> <?php echo "Your message has been sent";?></p>
+                    <form action="?"  method="post" >
                         <input name = "email" id = "email" type="text" placeholder="EMAIL ADDRESS" />
                         <br />
                         <input name = "title" id = "title" type="text" placeholder="SUBJECT" />
