@@ -46,7 +46,7 @@ if($_POST && isset($_FILES['file1']))
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n"; 
-		$body .= chunk_split(base64_encode($mail . "\r\n" . $name . "\r\n" . $phone . "\r\n" . $team . "\r\n" . $interest));
+		$body .= chunk_split(base64_encode($mail . " " . $name . "\r\n" . $phone . "\r\n" . $team . "\r\n" . $interest));
 		
         
         //attachment
@@ -64,7 +64,7 @@ if($_POST && isset($_FILES['file1']))
     $sentMail = @mail($to, $subject, $body, $headers);
     if($sentMail) //output success or failure messages
     {       
-        die('Thank you for your application');
+        die('Thank you for your application!');
     }else{
         die('Could not send mail! Please check your PHP mail configuration.');  
     }
