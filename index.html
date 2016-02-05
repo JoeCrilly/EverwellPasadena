@@ -1355,7 +1355,7 @@
 
 <div id="small-dialog5" class="small-dialog2 zoom-anim-dialog mfp-hide">
 	<ul>
-		<form action="index.html" method="post" class="job-form">
+		<form action="applicationform.php" method="post" class="job-form" enctype="multipart/form-data">
 
       <br>
         <h2>Apply Now</h2>
@@ -1363,29 +1363,29 @@
         <fieldset>
 
           <label for="name">Name:</label>
-          <input class= "jobinput" type="text" id="name" name="user_name">
+          <input class= "jobinput" type="text" id="name" name="name">
 
-          <label for="mail">Email:</label>
-          <input class= "jobinput" type="email" id="mail" name="user_email">
+          <label for="email">Email:</label>
+          <input class= "jobinput" type="text" id="mail" name="mail">
 
           <label for="phone">Phone Number:</label>
-          <input class= "jobinput" type="phone" id="phone" name="phone_number">
+          <input class= "jobinput" type="text" id="phone" name="phone">
 
         </fieldset>
 
         <fieldset>
-        <label for="job">Which District:</label>
-        <select id="job" name="user_job">
+        <label for="team">Which District:</label>
+        <select id="team" name="team">
           <optgroup label="The Tribe">
-            <option value="invincible">Team Invincible</option>
-            <option value="mojo">Team Mojo</option>
-			<option value="texas">The Texas Rangers</option>
-			<option value="wolf">The Wolf Pack</option>
-			<option value="warriors">The Warriors</option>
-			<option value="pipe">The Pipeline</option>
-			<option value="district">The District</option>
-			<option value="maquina">La Maquina</option>
-			<option value="horse">The Dark Horse</option>
+            <option value="Team_Invincible">Team Invincible</option>
+            <option value=" Team_Mojo">Team Mojo</option>
+			<option value="Texas_Rangers">The Texas Rangers</option>
+			<option value="Wolf_Pack">The Wolf Pack</option>
+			<option value="Warriors">The Warriors</option>
+			<option value="Pipeline">The Pipeline</option>
+			<option value="District">The District</option>
+			<option value="Maquina">La Maquina</option>
+			<option value="Dark_Horse">The Dark Horse</option>
           </optgroup>
           </select>
 
@@ -1393,29 +1393,23 @@
 
               <label>Interests:</label><br><br>
 
-              <input class= "jobinput" type="checkbox" id="CONSULTANT" value="BUSINESS_BENEFITS_CONSULTANT" name="user_interest"><label class="light" for="development">Business Consultant</label><br>
-                <input class= "jobinput" type="checkbox" id="MANAGER" value="ACCOUNT_MANAGER" name="user_interest"><label class="light" for="design">District Manager</label><br>
-              <input class= "jobinput" type="checkbox" id="BROKER-CONSULTANT" value="BROKER_CONSULTANT" name="user_interest"><label class="light" for="business">Broker Consultant</label><br>
-              <input class= "jobinput" type="checkbox" id="INTERNSHIP" value="INTERNSHIP" name="user_interest"><label class="light" for="business">Internship (Please specify below)<select id="job" name="user_job">
-          <optgroup label="Available Internships">
-			<option value="web">Please select an option...</option>
-            <option value="web">Web Development Internship</option>
-            <option value="hr">Human Resources Internship</option>
-			<option value="business">Business Internship</option>
-			<option value="graphic">Graphic Design Internship</option>
+              <input class= "jobinput" type="checkbox" id="CONSULTANT" value="BUSINESS_BENEFITS_CONSULTANT" name="interest"><label class="light" for="development">Business Consultant</label><br>
+                <input class= "jobinput" type="checkbox" id="MANAGER" value="ACCOUNT_MANAGER" name="interest"><label class="light" for="design">District Manager</label><br>
+              <input class= "jobinput" type="checkbox" id="BROKER-CONSULTANT" value="BROKER_CONSULTANT" name="interest"><label class="light" for="business">Broker Consultant</label><br>
+              <input class= "jobinput" type="checkbox" id="INTERNSHIP" value="INTERNSHIP" name="interest"><label class="light" for="business">Internship (Please specify below)<select id="job" name="user_job">
+          <optgroup label="Available Internships" id="intern" name="intern">
+			<option value="">Please select an option...</option>
+            <option id="intern" name="intern" value="Web_Design">Web Development Internship</option>
+            <option id="intern" name="intern" value="HR">Human Resources Internship</option>
+			<option id="intern" name="intern" value="Business_Dev">Business Development Internship</option>
+			<option id="intern" name="intern" value="Graphic_Design">Graphic Design Internship</option>
           </optgroup>
           </select></label><br><br>
 
                         Title of Resume:<br>
                         <input type="text" name="textline" size="30"><br>
                         Upload Resume:<br>
-                        <input type="file" name="datafile1" size="40"><br><br>
-
-                        Title of Cover Letter:<br>
-                        <input type="text" name="textline" size="30"><br>
-                        Upload Cover Letter:<br>
-                        <input type="file" name="datafile2" size="40">
-                        </p>
+                        <input type="file" name="file1" size="40"><br><br>
         </fieldset>
         <button class="job-button" type="submit">Send Application</button>
       </form>
