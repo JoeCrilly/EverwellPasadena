@@ -1538,7 +1538,8 @@ h2.position-caption {
 	max-width: 900px;
 	margin: 40px auto;
 	position: relative;
-	
+	overflow-y: auto;
+	height: 600px;
 }
 
 .small-dialog6 {
@@ -1557,8 +1558,7 @@ h2.position-caption {
 	text-align: left;
 	max-width: 600px;
 	margin: 40px auto;
-	position: relative;
-	width:1000px;
+	width:100%;
 	overflow-y: auto;
 	height: 600px;
 }
@@ -1566,8 +1566,26 @@ h2.position-caption {
 .job-form fieldset{
 	border-style: none;
     border-color: white white;
-
+	
 }
+
+/* 
+div.dropdown_container {
+    width:205px;
+}
+
+select#team {
+    width:auto;
+}
+
+select#team {
+    width:100%;
+}
+
+select:focus#team {
+    width:auto\9;
+}
+*/
 
 .small-dialog2 h2{
 	text-align: center;
