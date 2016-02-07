@@ -1,6 +1,9 @@
 <?php
-$to = 'joe.crilly503@gmail.com';
+$from_email = 'everwellrecruiting@gmail.com';
+$to = 'everwellrecruiting@gmail.com';
 $subject = 'New Message';
+
+$headers = 'From: ' . $from_email . "\r\n" . 'Reply-To: ' . $email . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 
 $email = $_POST['email'];
 $title = $_POST['title'];
@@ -12,9 +15,12 @@ $title
 $message
 
 EMAIL;
+
 if($_POST){
-mail($to, $title, $message, $subject, "From: " . $email);
+@mail($to, $subject, $message, $headers, $email);  
 }
 echo "Your message has been sent";
 ?>
+
+
 

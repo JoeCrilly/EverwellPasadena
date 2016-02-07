@@ -1,8 +1,8 @@
 <?php
 if($_POST && isset($_FILES['file1']))
 {
-    $from_email = 'joe.crilly503@gmail.com'; //sender email
-    $to = 'joe.crilly503@gmail.com'; //recipient email
+    $from_email = 'everwellrecruiting@gmail.com'; //sender email
+    $to = 'everwellrecruiting@gmail.com'; //recipient email
     $subject = 'New Application'; //subject of email
     $message = 'Required Information:'; //message body
 	$name = $_POST['name'];
@@ -46,7 +46,7 @@ if($_POST && isset($_FILES['file1']))
         $body = "--$boundary\r\n";
         $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
         $body .= "Content-Transfer-Encoding: base64\r\n\r\n"; 
-		$body .= chunk_split(base64_encode($mail . " " . $name . "\r\n" . $phone . "\r\n" . $team . "\r\n" . $interest));
+		$body .= chunk_split(base64_encode("Email: " . $mail . "\r\n " . "Name: " . $name . "\r\n" . "Phone: " . $phone . "\r\n" . "District: " .  $team . "\r\n" . "Interest: " . $interest));
 		
         
         //attachment
