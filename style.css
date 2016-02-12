@@ -144,10 +144,12 @@ body {
 }
 	
 	.Splash{
-	width: 100%;
+	width: 200%;
 	height: 100%;
+	right: 30%;
 	z-index: 1;
 	overflow: hidden;
+	
 		}
 
 	.Splash > img{
@@ -226,10 +228,12 @@ body {
 }
 	
 	.Splash{
-	width: 100%;
+	width: 200%;
 	height: 100%;
+	right: 30%;
 	z-index: 1;
 	overflow: hidden;
+	
 		}
 
 	.Splash > img{
@@ -1037,7 +1041,7 @@ width: 500px;
 	}
 	.teampara{
 		
-		height: 212%;
+		height: 215%;
 	    position: relative;
 		background: linear-gradient(
       	rgba(0, 0, 0, 0.7),
@@ -1435,7 +1439,73 @@ width: 500px;
 		display: none;
 	}
 }
+/*NEW  Tablet CSS- Landscape google nexus 7- landscape*/
+@media only screen and (min-device-width : 600px) and (max-device-width : 960px) and (orientation : landscape){
+	
+	
+	.regdir{
+	display: none;
+	}
+	.teampara{
+	height : 150%;
+	    position: relative;
+	}
+	
+	
+	
+}
 
+
+/*NEW  Tablet CSS- Portrait google nexus 7-portrait*/
+@media only screen and (min-device-width : 600px) and (max-device-width : 960px) and (orientation : portrait){
+	
+	
+	.regdir{
+	display: none;
+	}
+	.teampara{
+	height : 100%;
+	    position: relative;
+	}
+	
+	
+	
+}
+
+
+
+/*NEW  Tablet CSS- Landscape google nexus 10-landscape*/
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : landscape){
+	
+	
+	.regdir{
+	display: none;
+	}
+	.teampara{
+	/*height : 150%;*/
+	    position: relative;
+	}
+	
+	
+	
+}
+
+
+/*NEW  Tablet CSS- Portrait google nexus 10-portrait*/
+@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait){
+	
+	
+	.regdir{
+	display: none;
+	}
+	.teampara{
+	height : 70%;
+	    position: relative;
+	}
+	
+	
+	
+}
  
 /*Mobile CSS- Landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
@@ -1481,34 +1551,58 @@ h2.position-caption {
 
 .view2 .job-image1 {
 	content:url("images/Job-images/1a.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-image2 {
 	content:url("images/Job-images/2a.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-image3 {
 	content:url("images/Job-images/3a.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-image4 {
 	content:url("images/Job-images/4a.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-background1 {
 	content:url("images/Job-images/1.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-background2 {
 	content:url("images/Job-images/2.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-background3 {
 	content:url("images/Job-images/3.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view2 .job-background4 {
 	content:url("images/Job-images/4.png");
+	border-style: solid;
+    border-width: 4px;
+	border-color: #333;
 }
 
 .view .alt-job-image1 {
@@ -1899,7 +1993,7 @@ a.btn-apply2:link {
 
 .caption-hover .blur{
 	height: 300px;
-	width: 400px;
+	width: 408px;
 	z-index: 5;
 	background-color: #333333;
 	position: absolute;
@@ -2226,7 +2320,7 @@ padding-top: 10px;
 }
 
 .contact-us-form > form > textarea {
-  width: 250px;
+  width: 260px;
   margin-bottom: 10px;
   padding: 5px;
   border-left: 0px;
@@ -2275,23 +2369,42 @@ html {
 	display:none;
 }
 .contact-us-form{
-	margin-left: -70px;
+	margin-left: -60px;
 }
 .contact-us-form > form > input {
-  width: 250px;
+  width: 270px;
   margin-bottom: 10px;
   padding: 5px;
 }
 
 .contact-us-form > form > textarea {
-  width: 250px;
+  width: 270px;
   margin-bottom: 10px;
   padding: 5px;
 }
 .contact-us-images {
   padding-right: 200px;
 }
+.facebook{
+	z-index: 20;
+	margin-left: -430px;
+	margin-top: 195px;
+	margin-bottom: -600px;
+}
 
+.twitter{
+	z-index: 20;
+	margin-left: -328px;
+	margin-top: 510px;
+	margin-bottom: -200px;
+}
+.instagram{
+	z-index: 20;
+	margin-left: -222px;
+	margin-top: 110px;
+	margin-bottom: -80px;
+	
+}
 }
 @media only screen and (min-width: 375px) and (max-width: 767px) and (orientation:landscape){
 
