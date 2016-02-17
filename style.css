@@ -1572,6 +1572,8 @@ h2.position-caption {
 	max-width: 800px;
 	margin: 40px auto;
 	position: relative;
+	height: 600px;
+	overflow: scroll;
 	
 }
 
@@ -1749,11 +1751,14 @@ a.btn-apply2:link {
 /* Large desktop */
 @media (min-width: 980px) {
 .view { display: none; }
-.image-top{position: absolute;}}
+.image-top{position: absolute;
+
+}}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
-.image-top{position: absolute;}}
+.image-top{position: absolute;
+}}
 
 /* Landscape phone to portrait tablet */
 @media only screen and (min-width: 459px) and (max-width: 767px) { .view2 { display: none; } }
@@ -1946,9 +1951,10 @@ a.btn-apply2:link {
 
 .view2 img { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
 
-.image-top, .view2:hover .image-bottom { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1; }
+.image-top, .view2:hover .image-bottom { -webkit-opacity: 1; -moz-opacity: 1; opacity: 1;}
 
-.view2:hover .image-top, .image-bottom { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0; }
+.view2:hover .image-top, .image-bottom { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0;}
+	
 
 /*------Application Tab(Internship)--------*/
 
