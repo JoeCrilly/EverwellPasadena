@@ -5,7 +5,7 @@
       var cssmenu = $(this), settings = $.extend({
         title: "Everwell Pasadena",
         format: "dropdown",
-        breakpoint: 1024,
+        breakpoint: 1300,
         sticky: false
       }, options);
 

@@ -570,14 +570,14 @@ html,
 	padding: 0;
 	}
 		.slider {
-			width: 230px;
+			width: 290px;
 			height: 230px;
 			margin: 10px auto;
 			background: transparent;
 		}
 
 		.slider img {
-	    	width: 230px;
+	    	width: 290px;
 			height: 230px;
 			position: center;
 		}
@@ -588,7 +588,7 @@ html,
 
    		.what-image2 {
     		display: block;
-    		width: 230px;
+    		width: 290px;
 			height: 230px;
 			position: center;
    		}
@@ -604,14 +604,14 @@ html,
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
 
 		.slider {
-			width: 280px;
-			height: 250px;
+			width: 310px;
+			height: 230px;
 			margin: 10px auto;
 			background: transparent;
 		}
 
 		.slider img {
-	    	width: 280px;
+	    	width: 310px;
 			height: 230px;
 			position: center;
 		}
@@ -622,8 +622,8 @@ html,
 
    		.what-image2 {
     		display: block;
-    		width: 280px;
-			height: 280px;
+    		width: 310px;
+			height: 230px;
 			position: center;
    		}
 
@@ -633,18 +633,18 @@ html,
 			text-align: center;
 		}
 	}
-	@media only screen and (min-device-width: 568px) and (max-device-width: 768px) and (orientation: landscape) {
+	@media only screen and (min-device-width: 569px) and (max-device-width: 768px) and (orientation: landscape) {
 
 		.slider {
-			width: 280px;
-			height: 280px;
+			width: 330px;
+			height: 250px;
 			margin: 10px auto;
 			background: transparent;
 		}
 
 		.slider img {
-	    	width: 280px;
-			height: 280px;
+	    	width: 330px;
+			height: 250px;
 			position: center;
 		}
 
@@ -654,8 +654,8 @@ html,
 
    		.what-image2 {
     		display: block;
-    		width: 280px;
-			height: 230px;
+    		width: 330px;
+			height: 250px;
 			position: center;
    		}
 
@@ -710,7 +710,7 @@ html,
 	.business-text > h1{
 		position: relative;
 		color: #fff;
-		z-index: 80;
+		z-index: 50;
 		font-weight: bold;
 		font-family: Tahoma, Verdana, Segoe, sans-serif;
 	}
@@ -728,7 +728,7 @@ html,
 		.business-text > h1{
 			position: relative;
 			color: #fff;
-			z-index: 1000;
+			z-index: 50;
 			font-weight: bold;
 			font-family: Tahoma, Verdana, Segoe, sans-serif;
 
@@ -857,9 +857,27 @@ width: 500px;
   }
   
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait){
-.why-pasadena{
-	display:none;
+  
+  .evntgall{
+	margin-left: -40px;
+  }
+  #gallery-div { 
+display: block;
+	text-align: center;
+width: 300px;
+	height: 200px;
+	
 }
+
+.events-list {
+	display: block;
+	text-align: center;
+    width: 300px;
+    height: 200px;
+	
+    
+
+  }
 #play {
     background: url('images/play-icon.png') center  no-repeat;
     margin: -220px 2px 2px 2px;
@@ -888,9 +906,7 @@ width: 500px;
     padding: 10px;
 
 	}
-.evntgall {
-    display: none;
-    }
+
 
 .caption > h2{
     padding-top:35px;
@@ -901,9 +917,26 @@ width: 500px;
 
 }
   @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape){
-.why-pasadena{
-	display:none;
+.evntgall{
+	margin-left: -40px;
+  }
+  #gallery-div { 
+display: block;
+	text-align: center;
+width: 300px;
+	height: 200px;
+	
 }
+
+.events-list {
+	display: block;
+	text-align: center;
+    width: 300px;
+    height: 200px;
+	
+    
+
+  }
 #play {
     background: url('images/play-icon.png') center  no-repeat;
     margin: -220px 2px 2px 2px;
@@ -933,9 +966,7 @@ width: 500px;
     padding: 10px;
 
 	}
-.evntgall {
-    display: none;
-    }
+
 	.caption > h2{
     padding-top:35px;
     text-align: center;
@@ -946,21 +977,13 @@ width: 500px;
 }
  /* the following is for tablet --to be removed after css for tablet is complete  */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
-  .why-pasadena{
-	display:none;
+  
 }
   .passvid {
     -webkit-flex-flow: column wrap;
     flex-flow: column wrap;
 	text-align: center;
 	}
-.evntgall {
-    display: none;
-    }
-
-    .tablet-display{
-    	display: none;
-    }
 
 }
 
@@ -981,10 +1004,29 @@ width: 500px;
 	}
 	
 	
-	@media only screen and (max-device-width : 767px) and (min-device-width : 568px) and (orientation : landscape){
-.why-pasadena{
-	display:none;
+	@media only screen and (max-device-width : 767px) and (min-device-width : 569px) and (orientation : landscape){
+	
+	.evntgall{
+	margin-left: -40px;
+  }
+  #gallery-div { 
+display: block;
+	text-align: center;
+width: 330px;
+	height: 230px;
+	
 }
+
+.events-list {
+	display: block;
+	text-align: center;
+    width: 330px;
+    height: 230px;
+	
+    
+
+  }
+
 #play {
     background: url('images/play-icon.png') center  no-repeat;
     margin: -220px 2px 2px 2px;
@@ -1014,9 +1056,7 @@ width: 500px;
     padding: 10px;
 
 	}
-.evntgall {
-    display: none;
-    }
+
 	.caption > h2{
     padding-top:35px;
     text-align: center;
