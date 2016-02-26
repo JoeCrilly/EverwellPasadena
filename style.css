@@ -559,6 +559,27 @@ body {
 		height: auto;
 		text-align: center;
 	}
+	.partners_container{
+		width: 70%;
+		margin: 0 auto;
+		
+	}
+	.partners_container2{
+		margin-bottom: -400px;
+	}
+	.partners_container h3{
+		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		font-size: 150%;
+		letter-spacing: 3px;
+	}
+	.partners{
+		width: 100%;
+	}
+	
+	.partners img{
+		height: 135px;
+		width: 200px;
+	}
 
 	/* Mobile size Portrait CSS*/
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
@@ -632,9 +653,16 @@ html,
 			height: auto;
 			text-align: center;
 		}
+		.partners_container2{
+		margin-bottom: -120px;
+	}
 	}
 	@media only screen and (min-device-width: 569px) and (max-device-width: 768px) and (orientation: landscape) {
 
+		.partners_container2{
+		margin-bottom: -130px;
+	}
+		
 		.slider {
 			width: 330px;
 			height: 250px;
@@ -669,6 +697,10 @@ html,
 	/* Tablet size portrait CSS*/
 	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
+		.partners_container2{
+		margin-bottom: -780px;
+	}
+		
 		.slider {
 			width: 633px;
 			height: 420px;
@@ -698,6 +730,11 @@ html,
 			height: auto;
 			text-align: center;
 		}
+	}
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+		.partners_container2{
+		margin-bottom: -600px;
+	}
 	}
 
 /*-------Businesses need you-------*/
