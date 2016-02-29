@@ -580,6 +580,9 @@ body {
 		height: 135px;
 		width: 200px;
 	}
+	.partnerarrow{
+		margin-top: 20px;
+	}
 
 	/* Mobile size Portrait CSS*/
 	@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
