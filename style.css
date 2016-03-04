@@ -757,6 +757,13 @@ html,
 
 /*-------Businesses need you-------*/
 
+	.highlight-image{
+    background: url("images/DividerImage.jpg") no-repeat center fixed;
+    background-size: cover;	
+	height: 400px;
+	position: relative;
+}
+	
 	.business-image {
 	  height: 400px;
 	  position: relative;
