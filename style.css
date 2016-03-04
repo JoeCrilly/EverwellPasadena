@@ -596,7 +596,10 @@ body {
 		width: 200px;
 	}
 	.partnerarrow{
-		margin-top: 20px;
+		margin-top: 100px;
+	}
+	.partnerlogo{
+		margin-top: -100px;
 	}
 
 	/* Mobile size Portrait CSS*/
@@ -2054,7 +2057,9 @@ a.btn-apply2:link {
 
 .view2:hover .image-top, .image-bottom { -webkit-opacity: 0; -moz-opacity: 0; opacity: 0;}
 	
-
+.push{
+padding-top: -60px;
+}
 /*------Application Tab(Internship)--------*/
 
 
