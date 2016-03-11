@@ -1817,6 +1817,8 @@ select {
 	align-items: center; /* align vertical */
 }
 
+
+
 .btn-apply2 {
 	text-decoration:none;
 }
@@ -1861,12 +1863,14 @@ a.btn-apply2:link {
 @media (min-width: 980px) {
 .view { display: none; }
 .image-top{position: absolute;
+border: 3px solid black;
 
 }}
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
 .image-top{position: absolute;
+border: 3px solid black;
 }}
 
 /* Landscape phone to portrait tablet */
@@ -1949,10 +1953,17 @@ a.btn-apply2:link {
 	width:85%;
 }
 
+.btn-apply2 {
+height:14%
+
+}
 .btn-apply2 h2 {
-	position:relative;
-	bottom:25px;
-}}
+position:relative;
+font-size: 1em;
+
+}
+
+}
 
 /* Landscape phones and down */
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:landscape) {
