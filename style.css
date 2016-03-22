@@ -39,16 +39,16 @@ body {
 	z-index:99; /* makes sure it stays on top */
 }
 
-#status {
+#status{
 	width:400px;
 	height:300px;
 	position:absolute;
-	left:50%; /* centers the loading animation horizontally on the screen */
-	top:50%; /* centers the loading animation vertically on the screen */
-	background-image:url(images/preloader.gif); /* path to your loading animation */
-	background-repeat:no-repeat;
-	background-position:center;
-	margin:-150px 0 0 -200px; /* is width and height divided by two */
+  	left:50%; /* centers the loading animation horizontally on the screen */
+  	top:50%; /* centers the loading animation vertically on the screen */
+    background-image:url(images/preloader.gif); /* path to your loading animation */
+  	background-repeat:no-repeat;
+  	background-position:center;
+  	margin:-150px 0 0 -200px; 
 }
 
 /*-----------Navigation----------*/
