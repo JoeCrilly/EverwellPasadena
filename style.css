@@ -2146,6 +2146,7 @@ padding-top: -60px;
 }
 
 .accordion__title {
+width: 32%;
   padding: 0 1em;
   background: #ccc;
   border-top: 2px solid #eee;
