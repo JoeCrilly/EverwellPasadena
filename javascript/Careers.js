@@ -7,6 +7,13 @@ $('.inline-popups').magnificPopup({
        this.st.mainClass = this.st.el.attr('data-effect');
     }
   },
+  fixedContentPos: false,
+		fixedBgPos: true,
+
+		overflowY: 'auto',
+
+		closeBtnInside: true,
+		preloader: false,
   midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
 });
 
