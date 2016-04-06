@@ -1807,6 +1807,7 @@ select {
 	width: 70%;
 	height: 105px;
 	font-size: 170%;
+	text-decoration:none;
 	letter-spacing: 3px;
 	display: table-cell;
 	vertical-align: middle;
@@ -1820,10 +1821,8 @@ select {
 	align-items: center; /* align vertical */
 }
 
-
-
-.btn-apply2 {
-	text-decoration:none;
+.btn-apply2 h2{
+	margin-top: 27.5px;
 }
 
 .btn-apply3 {
@@ -1865,31 +1864,48 @@ a.btn-apply2:link {
 /* Large desktop */
 @media (min-width: 980px) {
 .view { display: none; }
-.image-top{position: absolute;
-border: 3px solid #333;
-}
-.image-bottom{
-border: 3px solid #333;
+.image-top{position: absolute;}
 
+.job-image-wrap{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.caption-hover .view2{
+	width: 406px;
+	height: 206px;
+	border: 3px solid #333333;
 
 }}
+
+
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
-.image-top{position: absolute;
-border: 3px solid #333;
+
+.image-top{position: absolute;}
+
+.job-image-wrap{
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
 }
-.image-bottom{
-border: 3px solid #333;
 
-
+.caption-hover .view2{
+	width: 406px;
+	height: 206px;
+	border: 3px solid #333333;
 }}
 
+
 /* Landscape phone to portrait tablet */
-@media only screen and (min-width: 459px) and (max-width: 767px) { .view2 { display: none; } }
+@media only screen and (min-width: 459px) and (max-width: 767px) { .view2 { display: none; }}
 
 /* Landscape phones and down */
-@media only screen and (min-width: 320px) and (max-width: 468px) { .view2 { display: none; } }
+@media only screen and (min-width: 320px) and (max-width: 468px) { .view2 { display: none; }}
 
 @media (max-width: 767px) { .view2 { display: none; } }
 
@@ -1941,7 +1957,7 @@ border: 3px solid #333;
 } }
 
 /* Landscape phones and down */
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation:portrait) {
+@media only screen and (min-width: 320px) and (max-width: 500px) and (orientation:portrait) {
 
 .grid {
 	width:420%;
@@ -1972,7 +1988,6 @@ height:14%
 .btn-apply2 h2 {
 position:relative;
 font-size: 1em;
-
 }
 
 }
@@ -2007,7 +2022,6 @@ font-size: 1em;
 
 /* Caption Hover for available position section  */
 .caption-hover li{
-
 	padding: 0px;
 	position: relative;
 	overflow: hidden;
@@ -2030,6 +2044,7 @@ font-size: 1em;
 	-ms-transform:translateY(-20px);
 	-o-transform:translateY(-20px);
 }
+	}
 
 .caption-hover img{
 	margin: 0px;
@@ -2202,6 +2217,7 @@ width: 32%;
   
   .accordion__title,
   .accordion__content { 
+  	width:100%;
     float: none;
     margin: 0;
   }
