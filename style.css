@@ -1143,25 +1143,89 @@ width: 330px;
 
 
 /*-------Meet the Teams/Regional Director-------*/
-	#teams{
-	
-	}
-	.teampara{
+@media (min-width: 980px) {
+
+.teampara{		
 		
-		height: 1450px;
+		height: 1400px;
 	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
 		background: linear-gradient(
       	rgba(0, 0, 0, 0.7),
-    	rgba(0, 0, 0, 0.7)
+    	rgba(0, 0, 0, 0.7);
     	)
 	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.teampara{		
+		
+		height: 1800px;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
 	}
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+	
+	.teampara{		
+		
+		height: 2300px;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) and (orientation:portrait) {
+	
+		
+	.teampara{		
+		
+		height: 2400px;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
+	}
+
+}
+
+
+	
+	
+
 	.team{
 		height: 210%;
 	    position: relative;
 		background: linear-gradient(
       	rgba(0, 0, 0, 0.7),
-    	rgba(0, 0, 0, 0.7)
+    	rgba(0, 0, 0, 0.7);
     	)
 	}
 
@@ -2282,8 +2346,13 @@ width: 32%;
 
 /*-------Contact Us/Map-------*/
 
-.google-map {
-	display: absolute;
+.googlemap {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:600px; /* your iframe height */
+   top:600px;  /* your iframe height */
+   margin-top:-600px;  /* your iframe height */
 }
 #contact-us{
 	background-color: #333333;
