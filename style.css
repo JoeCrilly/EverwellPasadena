@@ -2250,6 +2250,7 @@ width: 32%;
   line-height: 3;
   height: 3em;
   cursor: pointer;
+  margin-bottom: .25em;
   margin-right: .25em;
 }
 
