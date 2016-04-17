@@ -1,17 +1,18 @@
 html {
   font-family: "Century Gothic";
-  width: 100%;
+
   
 }
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-	margin: 0;
-	padding: 0;
-}
 
+	
+	padding: 0;
+	margin: 0;
+	
+
+}
 
 body {
     font-family: "Century Gothic";
@@ -785,8 +786,7 @@ html,
 	height: 400px;
 	position: relative;
 }
-
-
+	
 	.business-image {
 	  height: 400px;
 	  position: relative;
@@ -1161,45 +1161,156 @@ width: 330px;
 
 /*-------Meet the Teams/Regional Director-------*/
 
+#teams{}
+
 	.highlight-image2{
-    background: url("images/Metro 2.jpg") no-repeat center fixed;
+    background: url("images/Metro 2.png") no-repeat center fixed;
     background-size: cover;	
-	height: 1400px;
+	height: 160%;
 	position: relative;
 }
 
-.regpic img {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-  width:70%;
-  
-}
-	
+@media (min-width: 1024px) {
 
-
-#teams{
-	
-	}
-	.teampara{
+.teampara{		
 		
-		height: 1450px;
+		height: 160%;
 	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
 		background: linear-gradient(
       	rgba(0, 0, 0, 0.7),
-    	rgba(0, 0, 0, 0.7)
+    	rgba(0, 0, 0, 0.7);
     	)
 	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.teampara{		
+		
+		height: 160%;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
 	}
+.highlight-image2{
+    background: url("images/Metro 2.png") no-repeat center fixed;
+    background-size: cover;	
+	height: 200%;
+	position: relative;
+	}		
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 767px) {
+	
+	.teampara{		
+		
+		height: 2300px;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
+	}
+	.highlight-image2{
+    background: url("images/Metro 2.png") no-repeat center fixed;
+    background-size: cover;	
+	height: 210%;
+	position: relative;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) and (orientation:portrait) {
+	
+		
+	.teampara{		
+		
+		height: 2400px;
+	    position: relative;
+		width:100%;
+    	margin:auto;
+    	display:block;
+    	vertical-align:middle;
+		background: linear-gradient(
+      	rgba(0, 0, 0, 0.7),
+    	rgba(0, 0, 0, 0.7);
+    	)
+	}
+
+
+	.highlight-image2{
+	height: 230%;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+
+}
+
+
+	
+
 	.team{
-		height: 210%;
-	    position: relative;
-		background: linear-gradient(
-      	rgba(0, 0, 0, 0.7),
-    	rgba(0, 0, 0, 0.7)
-    	)
+	    position: relative;  	
 	}
+
 	.teamslider{
 		width: 850px;
 		height: 256px;
@@ -1285,6 +1396,8 @@ width: 330px;
 		font-size: 220%;
 		letter-spacing: 20px;
 	}
+
+
 	.regional{
 		color: white;
 		font-family:Tahoma, Verdana, Segoe, sans-serif;
@@ -1402,10 +1515,7 @@ width: 330px;
 		padding-top: 5px;
 		padding-bottom: 5px;
 		padding-left: 10px;
-		
 	}
-	
-	
 
 /* meet the team- tablet CSS- Portrait*/
 @media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation:portrait){
@@ -1415,9 +1525,29 @@ width: 330px;
     	background: linear-gradient(
       	rgba(0, 0, 0, 0.6),
     	rgba(0, 0, 0, 0.6)
-    	),url("images/Metro 2.jpg");
+    	),url("images/Metro 2.png");
     	background-size: 100% 100%;
 	}
+
+.highlight-image2{
+	height: 250%;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+
 	.teampara{
 		
 		height: 100%;
@@ -1435,11 +1565,6 @@ width: 330px;
 	.title2{
   		width:6%;
 	}
-
-	.regdir {
-    	display: none;
-	}
-
 
 	.teamslider{
 		width: 650px;
@@ -1560,20 +1685,18 @@ width: 330px;
 /*Tablet CSS- Landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
 
-	.regdir{
-	display: none;
-	}
 	.teampara{
 		
 		height: 120%;
 	    position: relative;
-		overflow: hidden;
 	}
+	.highlight-image2{
+	height: 200%;}
 	.team{
     	background: linear-gradient(
       	rgba(0, 0, 0, 0.6),
     	rgba(0, 0, 0, 0.6)
-    	),url("images/Metro 2.jpg");
+    	),url("images/Metro 2.png");
     	background-size: 100% 100%;
 	}
 }
@@ -1582,21 +1705,32 @@ width: 330px;
   .team{
     display: none;
 		}
-	.regdir{
-	display: none;
-	
-	}
 	.teampara{
 		display: none;
 	}
 }
 /*NEW  Tablet CSS- Landscape google nexus 7- landscape*/
-@media only screen and (min-device-width : 600px) and (max-device-width : 960px) and (orientation : landscape){
+@media only screen and (min-device-width : 600px) and (max-device-width : 962px) and (orientation : landscape){
 	
-	
-	.regdir{
-	display: none;
+	.highlight-image2{
+	height: 300%;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
 	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+
 	.teampara{
 	height : 150%;
 	    position: relative;
@@ -1607,12 +1741,27 @@ width: 330px;
 }
 
 
+
 /*NEW  Tablet CSS- Portrait google nexus 7-portrait*/
-@media only screen and (min-device-width : 600px) and (max-device-width : 960px) and (orientation : portrait){
+@media only screen and (min-device-width : 600px) and (max-device-width : 767px) and (orientation : portrait){
 	
-	
-	.regdir{
-	display: none;
+	.highlight-image2{
+	height: 210%;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
+	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
 	}
 	.teampara{
 	height : 100%;
@@ -1623,14 +1772,48 @@ width: 330px;
 	
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 960px) and (orientation : portrait){
+	
+	.highlight-image2{
+	height: 190%;
+}
+
+	.teampara{
+	height : 100%;
+	    position: relative;
+	}
+	
+	
+	
+}
+
+/*Tablet CSS - iPad and iPad Mini*/
+@media only screen and (min-device-width : 961px) and (max-device-width : 1024px) and (orientation : landscape){
+	
+	.highlight-image2{
+	height: 230%;
+}
+	.regdir table{
+		width: 80%;
+	}
+	.teampara{
+	/*height : 150%;*/
+	    position: relative;
+	}
+	
+	
+	
+}
 
 
 /*NEW  Tablet CSS- Landscape google nexus 10-landscape*/
-@media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : landscape){
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1280px) and (orientation : landscape){
 	
-	
-	.regdir{
-	display: none;
+	.highlight-image2{
+	height: 200%;
+}
+	.regdir table{
+		width: 80%;
 	}
 	.teampara{
 	/*height : 150%;*/
@@ -1644,11 +1827,26 @@ width: 330px;
 
 /*NEW  Tablet CSS- Portrait google nexus 10-portrait*/
 @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait){
-	
-	
-	.regdir{
-	display: none;
+
+	.highlight-image2{
+	height: 150%;
+}
+
+	.regdir td {
+		padding: 10px;
+		width: 100%;
+		display: inline-block;
 	}
+	.regdirpic{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		display: inline-block;
+	}
+	.regdirtext {
+		display: inline-block;
+	}
+
 	.teampara{
 	height : 70%;
 	    position: relative;
