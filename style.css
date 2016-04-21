@@ -1166,6 +1166,7 @@ width: 330px;
 	.highlight-image2{
     background: url("images/Metro 2.png") no-repeat center fixed;
     background-size: cover;	
+<<<<<<< HEAD
 	height: 160%;
 	position: relative;
 }
@@ -1186,6 +1187,19 @@ width: 330px;
     	)
 	}
 
+=======
+	height: 1450px;
+	position: relative;
+}
+
+.regpic img {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width:80%;
+  
+>>>>>>> c0dce97d130f24cb0a7b54abda8800d3b77d79ae
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
