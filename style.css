@@ -1,5 +1,5 @@
 html {
-  font-family: "Century Gothic";
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 
   
 }
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    font-family: "Century Gothic";
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 	
 
 }
@@ -103,7 +103,7 @@ body {
 	}
 
 	.Everwell_text{
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		color: white;
 		text-shadow: 2px 2px grey;
 		font-weight: bold;
@@ -112,7 +112,7 @@ body {
 		letter-spacing: 5px;
 	}
 	.Everwell_text2{
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		margin-top:-20px;
 		color: white;
 		text-shadow: 2px 2px grey;
@@ -126,7 +126,7 @@ body {
 	
 	.splashbtn{
 		display:inline-block; 
-		font-family: Tahoma, Verdana, Segoe, sans-serif; 
+		
 		font-size: 22px;
 		font-weight: bold;
 		letter-spacing: 2.5px;
@@ -184,7 +184,7 @@ body {
 		margin-top: 75px;
 	}
 	.Everwell_text2{
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+	
 		margin-top:-20px;
 		color: white;
 		text-shadow: 2px 2px grey;
@@ -275,7 +275,7 @@ body {
 		margin-top: 75px;
 	}
 	.Everwell_text2{
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		margin-top:-20px;
 		color: white;
 		text-shadow: 2px 2px grey;
@@ -552,7 +552,7 @@ body {
 	}
 	.what_is_everwell{
 		background-color: white;
-		font-family: Tahoma, Verdan+a, Segoe, sans-serif;
+		
 		font-size: 160%;
 		letter-spacing: 3px;
 	}
@@ -602,7 +602,7 @@ body {
 	}
 	
 	.partners_container h3{
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		font-size: 150%;
 		letter-spacing: 3px;
 	}
@@ -797,7 +797,7 @@ html,
 		color: #fff;
 		z-index: 50;
 		font-weight: bold;
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 	}
 
 	.business-image > img {
@@ -815,7 +815,7 @@ html,
 			color: #fff;
 			z-index: 50;
 			font-weight: bold;
-			font-family: Tahoma, Verdana, Segoe, sans-serif;
+			
 
 
 		}
@@ -826,7 +826,7 @@ html,
 		padding: 30px;
 	}
 	.why-pasadena {
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		font-size: 160%;
 		letter-spacing: 3px;
 		
@@ -882,7 +882,7 @@ html,
   .caption > h2{
     padding-top:55px;
     text-align: center;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
 	font-size: 120%;
   }
   .about-videos {
@@ -912,7 +912,7 @@ width: 500px;
 	height: 340px;
 } 
   .gallery {
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
 	margin-top:-30px;
 	font-size: 180%;
 	letter-spacing:3px;
@@ -973,7 +973,7 @@ width: 300px;
   .caption > h2{
     padding-top:55px;
     text-align: center;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
 	font-size: 120%;
   }
   .about-videos {
@@ -1032,7 +1032,7 @@ width: 300px;
   .caption > h2{
     padding-top:55px;
     text-align: center;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
 	font-size: 120%;
   }
   .about-videos {
@@ -1122,7 +1122,7 @@ width: 330px;
   .caption > h2{
     padding-top:55px;
     text-align: center;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
 	font-size: 120%;
   }
   .about-videos {
@@ -1393,7 +1393,7 @@ width: 330px;
 
 	#team_titles{
 		color: white;
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		font-size: 14pt;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -1401,7 +1401,7 @@ width: 330px;
 	}
 
 	#team_description{
-	    font-family: Tahoma, Verdana, Segoe, sans-serif;
+	    
 
 	}
 	.daniel{
@@ -1428,7 +1428,7 @@ width: 330px;
 	}
 	#content {
   text-align: center;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  
   font-size: 160%;
   letter-spacing: 5px;
 	}
@@ -1520,7 +1520,7 @@ width: 330px;
 	}
 	.regdirtext{
 		text-transform: uppercase;
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		font-size: 60%;
 		font-weight: bold;
 		letter-spacing: 5px;
@@ -1906,7 +1906,7 @@ padding: 30px;
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 h2.position-caption {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  
   text-align: center;
   font-size: 220%;
   letter-spacing: 3px;
@@ -2549,7 +2549,7 @@ width: 32%;
 }
 .contacttitle{
 		color: white;
-		font-family: Tahoma, Verdana, Segoe, sans-serif;
+		
 		font-size: 160%;
 		letter-spacing: 3px;
 }
@@ -2592,7 +2592,7 @@ padding-top: 10px;
   border-right: 1px solid #fff;
   color: #fff;
   font-size: 25px;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+ 
   letter-spacing: 2px;
 }
 
