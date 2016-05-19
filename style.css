@@ -1570,7 +1570,7 @@ letter-spacing: 5px;
 		margin: 0 10px 0 10px;
 	}
 	
-	#mainwrapper .box, .inline-popups, #box-1, .simple-caption, .caption p{
+	#mainwrapper .box, #box-1, .simple-caption, .caption p{
 		width: 220px;
 		overflow:hidden;
 	}
@@ -1857,7 +1857,7 @@ letter-spacing: 5px;
 		margin: 0 10px 0 10px;
 	}
 	
-	#mainwrapper .box, .inline-popups, #box-1, .simple-caption, .caption p{
+	#mainwrapper .box, #box-1, .simple-caption, .caption p{
 		width: 220px;
 		overflow:hidden;
 	}
@@ -2176,7 +2176,7 @@ select {
 	text-decoration:none;
 }
 
-a.btn-apply2:hover, a.btn-apply2:active {color: white;}
+a.btn-apply2:hover, a.btn-apply2:active {color: white; opacity: 0.9;}
 
 a.btn-apply2:visited {
     color: white;
@@ -2219,6 +2219,10 @@ a.btn-apply2:link {
 @media (min-width: 768px) and (max-width: 979px) { .view { display: none; }
 
 .image-top{position: absolute;}
+
+.grid {
+	width: 450px;
+}
 
 .job-image-wrap{
 	position: absolute;
