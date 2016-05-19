@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 20%;
+    top: 50%;
 
     display: block;
 
@@ -80,7 +80,7 @@
 
 .slick-prev
 {
-    left: -65px;
+    left: -25px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -113,7 +113,6 @@
 {
     content: '←';
 }
-
 
 /* Dots */
 .slick-slider
