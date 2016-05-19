@@ -25,6 +25,23 @@
 	}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+	.content,.loader {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 45%;
+	}
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait){
+	.content,.loader {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 65%;
+	}
+}
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait){
 	.content,.loader {
 		margin-left: auto;
@@ -59,12 +76,20 @@
 	}
 }
 
+@media only screen and (min-device-width: 569px) and (max-device-width: 767px) and (orientation: portrait){
+	.content,.loader {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80%;
+	}
+}
+
 
 @media only screen and (min-device-width: 569px) and (max-device-width: 767px) and (orientation: landscape){
 	.content,.loader {
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 30%;
+		margin-top: 50%;
 	}
 }
 
