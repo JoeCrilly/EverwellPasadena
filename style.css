@@ -1570,7 +1570,7 @@ letter-spacing: 5px;
 		margin: 0 10px 0 10px;
 	}
 	
-	#mainwrapper .box, #box-1, .simple-caption, .caption p{
+	#mainwrapper .box,.inline-popups, #box-1, .simple-caption, .caption p{
 		width: 220px;
 		overflow:hidden;
 	}
@@ -1857,7 +1857,7 @@ letter-spacing: 5px;
 		margin: 0 10px 0 10px;
 	}
 	
-	#mainwrapper .box, #box-1, .simple-caption, .caption p{
+	#mainwrapper .box,.inline-popups, #box-1, .simple-caption, .caption p{
 		width: 220px;
 		overflow:hidden;
 	}
