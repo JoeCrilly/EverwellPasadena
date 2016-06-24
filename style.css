@@ -72,6 +72,7 @@ body {
 		height: 100%;
 		z-index: 1;
 		overflow: visible;
+		position: relative;
 		}
 		
 	.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left; word-wrap:break-word;}
@@ -1363,6 +1364,7 @@ width: 330px;
 	height: auto;
 	text-align: center;
 
+	width:256px;
 }
 
 #mainwrapper .box {
@@ -1370,7 +1372,6 @@ width: 330px;
 	cursor: pointer;
 	height: 290px;
 	float: left;
-
 	position: relative;
 	overflow: hidden;
 	width: 256px;
@@ -1380,6 +1381,9 @@ width: 330px;
 }
 
 
+	.slick-slide{
+		outline: none;
+	}
 
 #mainwrapper .box .caption {
 	background-color: #333333;
@@ -1554,7 +1558,12 @@ letter-spacing: 5px;
 	padding-left: 10px;
 }
 
+@media (min-width: 901px){
+	#mainwrapper .box{
+		margin-left: 11px;
+	}
 
+}
 @media (min-width: 600px) and (max-width: 900px){
 	.teamslider{
 		width: 480px;
@@ -1570,7 +1579,7 @@ letter-spacing: 5px;
 		margin: 0 10px 0 10px;
 	}
 	
-	#mainwrapper .box,.inline-popups, #box-1, .simple-caption, .caption p{
+	#mainwrapper .box,.box.inline-popups, #box-1, .simple-caption, .caption p{
 		width: 220px;
 		overflow:hidden;
 	}
@@ -1675,7 +1684,6 @@ letter-spacing: 5px;
 		cursor: pointer;
 		height: 256px;
 		float: left;
-
 		position: relative;
 		overflow: hidden;
 		width: 215px;
@@ -1766,7 +1774,7 @@ letter-spacing: 5px;
 	}
 }
 
-}
+
 /*Tablet CSS- Landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
 
@@ -2544,7 +2552,7 @@ width: 32%;
 }
 
 .accordion__title.active {
-  border-top-color:lime;
+  border-top-color:#008A91;
 }
 
 @media (max-width: 48em) {
